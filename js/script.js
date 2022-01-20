@@ -1,6 +1,6 @@
 // initializes lax
 window.onload = () => {
-  AOS.init({once: false});
+  AOS.init({once: true});
   console.log("runnam bitc");
   lax.init();
   lax.addDriver('scrollY', function () {
@@ -76,7 +76,7 @@ const getActiveMenuItem = () => {
 };
 
 // jQuery smooth scroll to element
-$("#navbar ul li a, .restart").on("click", function (e) {
+$("#navbar ul li a, .btn-cta, .restart").on("click", function (e) {
   if (this.hash !== "") {
     e.preventDefault();
     const hash = this.hash;
