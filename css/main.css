@@ -290,6 +290,7 @@ img {
     justify-content: space-between;
     flex: 1; }
     .navigation .nav-container .nav-logo {
+      opacity: 0.3;
       height: 30px;
       width: auto; }
     .navigation .nav-container .tagline {
